@@ -5,15 +5,21 @@
     box-sizing: border;
 }   
 body {
-    font-size: 16px;
-    min-height: 100vh;
-    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: system-ui, sans-serif;
   }
 
 
 /* element styles */
-
+div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:grid;
+    
+}
 
 /* headings */
 header {
@@ -36,15 +42,8 @@ button{
 
 /* images */
 
-.Intuition-cards{
+#Intuition-cards{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-#front{
-   position-anchor: ;
-}
-#back{
- position-visibility: always;
-
 }
